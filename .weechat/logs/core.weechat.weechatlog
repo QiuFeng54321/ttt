@@ -1,0 +1,66 @@
+2018-03-09 07:08:25		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-03-09 07:08:25		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-03-09 07:08:25		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-03-09 07:08:25		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-03-09 07:08:25		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, relay, script, trigger, xfer
+2018-03-09 07:09:19		irc: server qiufeng added
+2018-03-09 07:09:36	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-03-09 07:11:15	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-03-09 07:11:32	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2018-03-09 07:12:16	=!=	irc: command "join" must be executed on connected irc server
+2018-03-09 07:13:23	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2018-03-09 07:13:29	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2018-03-09 07:13:39		[irc]  /msg  [-server <server>] <target>[,<target>...] <text>
+2018-03-09 07:13:39		send message to a nick or channel
+2018-03-09 07:13:39		server: send to this server (internal name)
+2018-03-09 07:13:39		target: nick or channel (may be mask, '*' = current channel)
+2018-03-09 07:13:39		  text: text to send
+2018-03-09 07:14:34	=!=	irc: command "msg" must be executed on connected irc server
+2018-03-09 07:15:03	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2018-03-09 07:15:36	=!=	irc: command "join" must be executed on connected irc server
+2018-03-09 07:16:25	=!=	irc: command "join" must be executed on connected irc server
+2018-03-09 07:16:36	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-03-09 07:17:04	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-03-09 07:17:15		[irc]  /join  [-noswitch] [-server <server>] [<channel1>[,<channel2>...]] [<key1>[,<key2>...]]
+2018-03-09 07:17:15		join a channel
+2018-03-09 07:17:15		-noswitch: do not switch to new buffer
+2018-03-09 07:17:15		   server: send to this server (internal name)
+2018-03-09 07:17:15		  channel: channel name to join
+2018-03-09 07:17:15		      key: key to join the channel (channels with a key must be the first in list)
+2018-03-09 07:17:15		Examples:
+2018-03-09 07:17:15		  /join #weechat
+2018-03-09 07:17:15		  /join #protectedchan,#weechat key
+2018-03-09 07:17:15		  /join -server freenode #weechat
+2018-03-09 07:17:15		  /join -noswitch #weechat
+2018-03-09 07:17:50	=!=	irc: command "join" must be executed on connected irc server
+2018-03-09 07:17:59		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2018-03-09 07:17:59		                 -all|-auto|-open [-nojoin] [-switch]
+2018-03-09 07:17:59		connect to IRC server(s)
+2018-03-09 07:17:59		    server: server name, which can be:
+2018-03-09 07:17:59		            - internal server name (added by /server add, recommended usage)
+2018-03-09 07:17:59		            - hostname/port or IP/port, port is 6667 by default
+2018-03-09 07:17:59		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2018-03-09 07:17:59		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2018-03-09 07:17:59		    option: set option for server (for boolean option, value can be omitted)
+2018-03-09 07:17:59		  nooption: set boolean option to 'off' (for example: -nossl)
+2018-03-09 07:17:59		      -all: connect to all servers defined in configuration
+2018-03-09 07:17:59		     -auto: connect to servers with autoconnect enabled
+2018-03-09 07:17:59		     -open: connect to all opened servers that are not currently connected
+2018-03-09 07:17:59		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2018-03-09 07:17:59		   -switch: switch to next server address
+2018-03-09 07:17:59		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2018-03-09 07:17:59		Examples:
+2018-03-09 07:17:59		  /connect freenode
+2018-03-09 07:17:59		  /connect irc.oftc.net/6667
+2018-03-09 07:17:59		  /connect irc6.oftc.net/6667 -ipv6
+2018-03-09 07:17:59		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2018-03-09 07:17:59		  /connect my.server.org/6697 -ssl -password=test
+2018-03-09 07:17:59		  /connect irc://nick@irc.oftc.net/#channel
+2018-03-09 07:17:59		  /connect -switch
+2018-03-09 07:20:04		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, relay, script, trigger, xfer
+2018-03-09 07:20:35	=!=	irc: server "qiufeng" already exists, can't add it!
+2018-03-09 07:21:21	=!=	irc: command "msg" must be executed on connected irc server
+2018-03-09 07:22:08	=!=	irc: command "join" must be executed on connected irc server
+2018-03-09 07:22:17	=!=	irc: command "join" must be executed on connected irc server
+2018-03-09 07:22:33	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2018-03-09 07:22:48	=!=	irc: command "join" must be executed on irc buffer (server or channel)
